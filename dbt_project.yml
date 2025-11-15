@@ -40,3 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    circle_parcel:
+      +schema: 'parcel_dbt_dev'
+      staging:
+        +schema: 'staging'
+  +location: EU
